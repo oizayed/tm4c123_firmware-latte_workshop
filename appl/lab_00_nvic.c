@@ -5,9 +5,13 @@
  *      Author: Muhammad.Elzeiny
  */
 
+
+#include "../mcal/nvic/nvic.h"
+#include "../mcal/mcu_hw.h"
+
 void lab_00_nvic(void)
 {
-    /*TODO Write code to test nvic driver*/
+    NVIC_init();
 
 
     while(1)
